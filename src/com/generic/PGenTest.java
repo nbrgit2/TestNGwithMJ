@@ -6,6 +6,7 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.AfterMethod;
 
 public class PGenTest {
+	/*
 	
   @Parameters({ "browser"  ,"site"})
   @Test
@@ -31,5 +32,5 @@ public class PGenTest {
 	  System.out.println("Pgen Test ---end ");
 	  
   }
-
+*/
 }
