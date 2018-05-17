@@ -3,7 +3,7 @@
   <groupId>TestNgWithMJ</groupId>
   <artifactId>TestNgWithMJ</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-   <properties>
+  <properties>
      <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
      	 <suiteFile></suiteFile>
    </properties>
@@ -24,7 +24,7 @@
           <version>2.21.0</version>
          <configuration>
         		<suiteXmlFiles>
-            		<suiteXmlFile>${suiteFile}</suiteXmlFile>
+            		<suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
 		        </suiteXmlFiles>
         </configuration>
    </plugin>
