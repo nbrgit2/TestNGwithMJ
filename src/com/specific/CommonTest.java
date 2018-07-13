@@ -18,7 +18,7 @@ public class CommonTest {
   @Test
   public void f(ITestContext context) {
 	  
-	  System.out.println(context.getName());
+	  //System.out.println(context.getName());
 	  STKClass.gen=context.getCurrentXmlTest().getParameter("browser");
 	  System.out.println(STKClass.gen);
 	  
