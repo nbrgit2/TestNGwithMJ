@@ -17,8 +17,9 @@ public class GenTest {
 	static String site=null;
 	
   @Test
-  public void f() {
+  public void f(ITestContext context) {
 
+	  STKClass.gen=context.getCurrentXmlTest().getParameter("browser");
 	  System.out.println(STKClass.gen);
 	  
   }

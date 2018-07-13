@@ -5,7 +5,6 @@
   <parameter name="browser" value="chrome"/>
   <parameter name="site" value="site1"/>
   <packages>
-  	<package name="com.modify"/>	
   	<package name="com.generic"/>
   </packages>
   </test> <!-- Test -->
@@ -13,7 +12,6 @@
   <parameter name="browser" value="forefox"/>
   <parameter name="site" value="site2"/>
   <packages>
-  <package name="com.modify2"/>	
   	<package name="com.specific"/>
   </packages>
   </test>
