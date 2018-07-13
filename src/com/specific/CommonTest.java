@@ -18,8 +18,6 @@ public class CommonTest {
   @Test
   public void f() {
 	  
-	  System.out.println(browser);
-	  System.out.println(site);
 	  System.out.println(STKClass.gen);
 	  
   }
