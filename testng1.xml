@@ -13,6 +13,7 @@
   <parameter name="browser" value="forefox"/>
   <parameter name="site" value="site2"/>
   <packages>
+  <package name="com.modify2"/>	
   	<package name="com.specific"/>
   </packages>
   </test>
