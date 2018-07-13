@@ -5,8 +5,8 @@
   <parameter name="browser" value="chrome"/>
   <parameter name="site" value="site1"/>
   <packages>
-  		<package name="com.generic"/>
-  		<package name="com.modify"/>
+  	<package name="com.modify"/>	
+  	<package name="com.generic"/>
   </packages>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

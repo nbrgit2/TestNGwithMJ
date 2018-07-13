@@ -5,6 +5,7 @@
    <parameter name="browser" value="IE"/>
    <parameter name="site" value="site2"/>
     <packages>
+    	<package name="com.modify2"/>	
   		<package name="com.specific"/>
   </packages>
   </test> <!-- Test -->
