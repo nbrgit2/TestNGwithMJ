@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Suite1" parallel="none">
+<suite name="Suite1"  parallel="tests"  thread-count="2">
   <test name="Test1">
   <parameter name="browser" value="chrome"/>
   <parameter name="site" value="site1"/>
@@ -9,4 +9,11 @@
   	<package name="com.generic"/>
   </packages>
   </test> <!-- Test -->
+   <test name="Test2">
+  <parameter name="browser" value="forefox"/>
+  <parameter name="site" value="site2"/>
+  <packages>
+  	<package name="com.specific"/>
+  </packages>
+  </test>
 </suite> <!-- Suite -->
