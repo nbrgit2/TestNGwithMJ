@@ -6,7 +6,7 @@
   <parameter name="site" value="site1"/>
   <packages>
   		<package name="com.generic"/>
-  		<package name="com.specific"/>
+  		<package name="com.modify"/>
   </packages>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
